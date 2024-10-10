@@ -1,0 +1,11 @@
+.res-Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.shimmer-list{
+    display: flex;
+    flex-wrap: wrap;
+}

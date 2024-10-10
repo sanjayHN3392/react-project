@@ -4,6 +4,8 @@
   "description": "Learning",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [
@@ -12,11 +14,18 @@
   "author": "Sanjay",
   "license": "ISC",
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.12.0",
+    "prettier": "3.3.3",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "browserslist": "^4.23.3",
+    "dot-env": "^0.0.1",
+    "http-proxy-middleware": "^3.0.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   }
 }

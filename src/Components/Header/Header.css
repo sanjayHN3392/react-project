@@ -1,0 +1,31 @@
+.headers {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.res-name {
+  padding-top: 10px;
+  font-size: 24px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.nav-items {
+  padding-top: 0px 20px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.login-btn{
+    cursor: pointer;
+    margin-right: 10px;
+}
